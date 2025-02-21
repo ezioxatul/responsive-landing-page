@@ -277,8 +277,8 @@ function App() {
     <span className="dock-label font-medium text-xs text-[#979797]">Home</span>
   </button>
 
-  {/* Application Button (Active) */}
-  <button className="dock-active">
+  {/* Search Button */}
+  <button >
   <img src="mobile/application.svg"/>
     <span className="dock-label font-medium text-xs text-[#979797]">Application</span>
   </button>
