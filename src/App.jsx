@@ -79,9 +79,9 @@ function App() {
       </div>
 
       <div className=" flex">
-      <div className=" w-full mx-4 justify-center flex mt-5">
-        <img src="/mobile/puzzle.png" />
-      </div>
+        <div className=" w-full mx-4 justify-center flex mt-5">
+          <img src="/mobile/puzzle.png" />
+        </div>
       </div>
 
       <div className="flex mt-5 font-semibold text-lg space-x-34 ml-6">
@@ -90,82 +90,187 @@ function App() {
       </div>
 
       <div className="carousel carousel-center rounded-box ml-2 max-w-md p-4 flex gap-2 overflow-x-auto">
-  {/* Item 1 */}
-  <div className="carousel-item w-60 flex-shrink-0">
-    <div className="relative w-full">
-      <div className="absolute flex-col space-y-56 text-white z-10 mt-4 ">
-        <div className="text-right text-xs font-semibold ml-32 flex items-center justify-end">
-          <div className="z-10 mr-2">$1/min</div>
-          <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+        {/* Item 1 */}
+        <div className="carousel-item w-60 flex-shrink-0">
+          <div className="relative w-full">
+            <div className="absolute flex-col space-y-56 text-white z-10 mt-4 ">
+              <div className="text-right text-xs font-semibold ml-32 flex items-center justify-end">
+                <div className="z-10 mr-2">$1/min</div>
+                <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+              </div>
+              <div className="flex-col ml-2">
+                <div className="text-base font-semibold">Study Buddies</div>
+                <div className="flex space-x-24 text-xs font-medium">
+                  <div>
+                    Calls: <span className="text-sm font-semibold">300+</span>
+                  </div>
+                  <div className="flex space-x-1">
+                    <img className="w-4" src="/mobile/star.svg" />
+                    <div className="text-sm font-semibold">4.8</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="/mobile/studyBuddies.png"
+              className="rounded-box w-full"
+            />
+          </div>
         </div>
-        <div className="flex-col ml-2">
-          <div className="text-base font-semibold">Study Buddies</div>
-          <div className="flex space-x-24 text-xs font-medium">
-            <div>
-              Calls: <span className="text-sm font-semibold">300+</span>
+
+        {/* Item 2 */}
+        <div className="carousel-item w-60 flex-shrink-0">
+          <div className="relative w-full">
+            <div className="absolute flex-col space-y-56 text-white z-10 mt-4 ">
+              <div className="text-right text-xs font-semibold ml-32 flex items-center justify-end">
+                <div className="z-10 mr-2">$1/min</div>
+                <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+              </div>
+              <div className="flex-col ml-2">
+                <div className="text-base font-semibold">Grey Matters</div>
+                <div className="flex space-x-24 text-xs font-medium">
+                  <div>
+                    Calls: <span className="text-sm font-semibold">300+</span>
+                  </div>
+                  <div className="flex space-x-1">
+                    <img className="w-4" src="/mobile/star.svg" />
+                    <div className="text-sm font-semibold">4.8</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="flex space-x-1">
-              <img className="w-4" src="/mobile/star.svg" />
-              <div className="text-sm font-semibold">4.8</div>
+            <img src="/mobile/greyMatters.png" className="rounded-box w-full" />
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="carousel-item w-60 flex-shrink-0">
+          <div className="relative w-full">
+            <div className="absolute flex-col space-y-56 text-white z-10 mt-4 ">
+              <div className="text-right text-xs font-semibold ml-32 flex items-center justify-end">
+                <div className="z-10 mr-2">$1/min</div>
+                <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+              </div>
+              <div className="flex-col ml-2">
+                <div className="text-base font-semibold">Study Buddies</div>
+                <div className="flex space-x-24 text-xs font-medium">
+                  <div>
+                    Calls: <span className="text-sm font-semibold">300+</span>
+                  </div>
+                  <div className="flex space-x-1">
+                    <img className="w-4" src="/mobile/star.svg" />
+                    <div className="text-sm font-semibold">4.8</div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <img
+              src="/mobile/studyBuddies.png"
+              className="rounded-box w-full"
+            />
           </div>
         </div>
       </div>
-      <img src="/mobile/studyBuddies.png" className="rounded-box w-full" />
-    </div>
-  </div>
-
-  {/* Item 2 */}
-  <div className="carousel-item w-60 flex-shrink-0">
-    <div className="relative w-full">
-      <div className="absolute flex-col space-y-56 text-white z-10 mt-4 ">
-        <div className="text-right text-xs font-semibold ml-32 flex items-center justify-end">
-          <div className="z-10 mr-2">$1/min</div>
-          <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+      <div className="flex mt-5 font-semibold text-lg space-x-30 ml-6">
+        <div className=" ">Popular Institutes</div>
+        <div className=" mt-1 text-[#B4B4B4] text-sm">See all</div>
+      </div>
+      <div className="carousel carousel-center rounded-box ml-2 max-w-md p-4 flex gap-2 overflow-x-auto">
+        {/* Item 1 */}
+        <div className="carousel-item w-60 flex-shrink-0">
+          <div className="relative w-full">
+            <div className="absolute bottom-3 left-3 flex-col text-white z-10  ">
+              <div className="text-lg font-bold">Gray Matters</div>
+              <div className="text-md font-semibold">
+                SCO. 114, Main Market Sector 34, Chandigarh
+              </div>
+            </div>
+            <img
+              src="/mobile/graymattersC2.svg"
+              className="rounded-box w-full"
+            />
+          </div>
         </div>
-        <div className="flex-col ml-2">
-          <div className="text-base font-semibold">Grey Matters</div>
-          <div className="flex space-x-24 text-xs font-medium">
-            <div>
-              Calls: <span className="text-sm font-semibold">300+</span>
+
+        {/* Item 2 */}
+        <div className="carousel-item w-60 flex-shrink-0">
+          <div className="relative w-full">
+            <div className="absolute bottom-3 left-3 flex-col text-white z-10  ">
+              <div className="text-lg font-bold">Brills Institute</div>
+              <div className="text-md font-semibold">
+                SCO. 114, Main Market Sector 34, Chandigarh
+              </div>
             </div>
-            <div className="flex space-x-1">
-              <img className="w-4" src="/mobile/star.svg" />
-              <div className="text-sm font-semibold">4.8</div>
+            <img
+              src="/mobile/brillsInstitute.png"
+              className="rounded-box w-full"
+            />
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="carousel-item w-60 flex-shrink-0">
+          <div className="relative w-full">
+            <div className="absolute bottom-3 left-3 flex-col text-white z-10  ">
+              <div className="text-lg font-bold">Eli Institute</div>
+              <div className="text-md font-semibold">
+                SCO. 114, Main Market Sector 34, Chandigarh
+              </div>
             </div>
+            <img
+              src="/mobile/eliInstitute.png"
+              className="rounded-box w-full"
+            />
           </div>
         </div>
       </div>
-      <img src="/mobile/greyMatters.png" className="rounded-box w-full" />
-    </div>
-  </div>
 
-  {/* Item 3 */}
-  <div className="carousel-item w-60 flex-shrink-0">
-    <div className="relative w-full">
-      <div className="absolute flex-col space-y-56 text-white z-10 mt-4 ">
-        <div className="text-right text-xs font-semibold ml-32 flex items-center justify-end">
-          <div className="z-10 mr-2">$1/min</div>
-          <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
-        </div>
-        <div className="flex-col ml-2">
-          <div className="text-base font-semibold">Study Buddies</div>
-          <div className="flex space-x-24 text-xs font-medium">
-            <div>
-              Calls: <span className="text-sm font-semibold">300+</span>
-            </div>
-            <div className="flex space-x-1">
-              <img className="w-4" src="/mobile/star.svg" />
-              <div className="text-sm font-semibold">4.8</div>
+      <div className="flex mt-5 font-semibold text-lg space-x-40 ml-6">
+        <div className=" ">Latest Blogs</div>
+        <div className=" mt-1 text-[#B4B4B4] text-sm">See all</div>
+      </div>
+
+      <div className="carousel carousel-center rounded-box ml-2 max-w-md p-4 flex gap-2 overflow-x-auto">
+        {/* Item 1 */}
+        <div className="carousel-item w-72 flex-shrink-0">
+          <div className=" h-34 w-72 space-x-2 flex justify-center p-1 items-center  shadow-md rounded-lg">
+            <img src="/mobile/studyAbroad.png" className=" w-1/2" />
+            <div className="flex-col">
+              <div className=" font-semibold text-lg">Study Abroad</div>
+              <div className=" font-medium text-sm">
+                Lorem ipsum is dummy text for printing industry.
+              </div>
+              <div className=" font-semibold flex mt-2 text-[#1DBF73] text-sm">
+                Read Blog
+                <span className="mt-2 ml-2">
+                  <img src="/mobile/arrow.svg" />
+                </span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <img src="/mobile/studyBuddies.png" className="rounded-box w-full" />
-    </div>
-  </div>
-</div>
 
+        
+        {/* Item 2 */}
+        <div className="carousel-item w-72 flex-shrink-0">
+          <div className=" h-34 w-72 space-x-2 flex justify-center p-1 items-center  shadow-md rounded-lg">
+            <img src="/mobile/workPermit.png" className=" w-1/2" />
+            <div className="flex-col">
+              <div className=" font-semibold text-lg">Work Permit</div>
+              <div className=" font-medium text-sm">
+                Lorem ipsum is dummy text for printing industry.
+              </div>
+              <div className=" font-semibold flex mt-2 text-[#1DBF73] text-sm">
+                Read Blog
+                <span className="mt-2 ml-2">
+                  <img src="/mobile/arrow.svg" />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </>
   );
 }
