@@ -85,7 +85,7 @@ function App() {
       </div>
 
       <div className="flex mt-5 font-semibold text-lg space-x-34 ml-6">
-        <div className=" ">Live Consulants</div>
+        <div className=" ">Live Consultants</div>
         <div className=" mt-1 text-[#B4B4B4] text-sm">See all</div>
       </div>
 
@@ -225,7 +225,7 @@ function App() {
         </div>
       </div>
 
-      <div className="flex mt-5 font-semibold text-lg space-x-40 ml-6">
+      <div className="flex mt-5 font-semibold text-lg space-x-42 ml-6">
         <div className=" ">Latest Blogs</div>
         <div className=" mt-1 text-[#B4B4B4] text-sm">See all</div>
       </div>
