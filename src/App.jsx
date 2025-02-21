@@ -63,7 +63,7 @@ function App() {
         <div className=" relative w-full ">
           <div>
             <div className="absolute flex inset-x-0  text-center text-white font-semibold text-base z-10">
-            <img
+              <img
                 className=" mt-3 ml-12"
                 src="/mobile/ieltsImage.svg"
                 alt=""
@@ -71,11 +71,91 @@ function App() {
               <div className=" flex text-left w-12 justify-start mt-4 ml-4">
                 IELTS/TOEFL/PTE Institute
               </div>
-              
             </div>
           </div>
 
           <img className="w-full z-0" src="/mobile/ieltsVector.svg" alt="" />
+        </div>
+      </div>
+
+      <div className=" w-full justify-center flex mt-5">
+        <img src="/mobile/puzzle.svg" />
+      </div>
+
+      <div className="flex mt-5 font-semibold text-lg space-x-34 ml-6">
+        <div className=" ">Live Consulants</div>
+        <div className=" mt-1 text-[#B4B4B4] text-sm">See all</div>
+      </div>
+
+      <div className="carousel carousel-center rounded-box ml-2 max-w-md space-x-2 p-4">
+        <div className="carousel-item">
+          <div className="relative w-full ">
+            <div className="absolute text-white z-10 space-y-34 mt-4 flex-col">
+              <div className="text-right text-xs font-semibold relative flex items-center justify-end">
+                <div className="z-10 mr-2">$1/min</div>
+                <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+              </div>
+              <div className="flex-col ml-2">
+                <div className="text-base font-semibold">Study Buddies</div>
+                <div className="flex space-x-9">
+                  <div className="text-xs font-medium">
+                    Calls: <span className="text-sm font-semibold">300+</span>
+                  </div>
+                  <div className="flex space-x-1">
+                    <img className="w-4" src="/mobile/star.svg" />
+                    <div className="text-sm font-semibold">4.8</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="/mobile/studyBuddies.svg" className="rounded-box z-0" />
+          </div>
+        </div>
+        <div className="carousel-item">
+        <div className="relative w-full ">
+            <div className="absolute text-white z-10 space-y-34 mt-4 flex-col">
+              <div className="text-right text-xs font-semibold relative flex items-center justify-end">
+                <div className="z-10 mr-2">$1/min</div>
+                <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+              </div>
+              <div className="flex-col ml-2">
+                <div className="text-base font-semibold">Grey Matters</div>
+                <div className="flex space-x-9">
+                  <div className="text-xs font-medium">
+                    Calls: <span className="text-sm font-semibold">300+</span>
+                  </div>
+                  <div className="flex space-x-1">
+                    <img className="w-4" src="/mobile/star.svg" />
+                    <div className="text-sm font-semibold">4.8</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="/mobile/greyMatters.svg" className="rounded-box z-0" />
+          </div>
+        </div>
+        <div className="carousel-item">
+        <div className="relative w-full ">
+            <div className="absolute text-white z-10 space-y-34 mt-4 flex-col">
+              <div className="text-right text-xs font-semibold relative flex items-center justify-end">
+                <div className="z-10 mr-2">$1/min</div>
+                <div className="w-14 rounded-md h-6 bg-[#0234C1] absolute right-0"></div>
+              </div>
+              <div className="flex-col ml-2">
+                <div className="text-base font-semibold">Study Buddies</div>
+                <div className="flex space-x-9">
+                  <div className="text-xs font-medium">
+                    Calls: <span className="text-sm font-semibold">300+</span>
+                  </div>
+                  <div className="flex space-x-1">
+                    <img className="w-4" src="/mobile/star.svg" />
+                    <div className="text-sm font-semibold">4.8</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="/mobile/studyBuddies.svg" className="rounded-box z-0" />
+          </div>
         </div>
       </div>
     </>
