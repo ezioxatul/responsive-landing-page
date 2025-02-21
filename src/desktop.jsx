@@ -1,7 +1,7 @@
 export function Desktop() {
   return (
-    <div className="relative">
-      <img className="absolute z-0" src="/desktop/blueBg.png" alt="" />
+    <div className="relative ">
+      <img className="absolute h-[630px] z-0" src="/desktop/blueBg.png" alt="" />
 
       <div className="flex-col max-w-[1320px] mx-auto relative z-10">
         <div className="flex h-[100px] w-full">
@@ -11,7 +11,7 @@ export function Desktop() {
               <img src="/desktop/location.svg" />
             </span>
             Location
-            <span>
+            <span className="ml-8">
               <img src="/desktop/downArrow.svg" />
             </span>
           </button>

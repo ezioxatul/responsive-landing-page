@@ -306,7 +306,9 @@ function App() {
       </div>
 
       {/* Desktop View */}
-      <Desktop />
+      <div className="hidden lg:block">
+        <Desktop />
+      </div>
     </>
   );
 }
