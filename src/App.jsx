@@ -21,7 +21,7 @@ function App() {
           <input
             type="text"
             placeholder="Search consultants here..."
-            className="flex-1 bg-transparent font-medium text-base  outline-none text-gray-600 placeholder-gray-400"
+            className="flex-1 bg-transparent font-medium text-base text-gray-600 placeholder-gray-400 border-none outline-none focus:ring-0"
           />
           <img src="/mobile/mic.svg" />
         </div>
