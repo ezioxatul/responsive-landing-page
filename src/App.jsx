@@ -36,27 +36,47 @@ function App() {
         </div>
       </div>
 
-      <div className="flex-col ">
-
-
-
-
-
+      <div className="flex-col mt-4 mx-4 ">
         <div className=" relative w-full ">
           <div>
-            <div className="absolute flex inset-x-0 top-4 text-center text-white font-medium text-base z-10">
-              <div>Immigration Consultants</div>
-              <img src="/mobile/immigrationImage.svg" alt="" />
+            <div className="absolute flex inset-x-0  text-center text-white font-semibold text-base z-10">
+              <div className=" flex-col mt-4 justify-center ml-14">
+                <div>Immigration</div> <div>Consultants</div>
+              </div>
+              <img
+                className=" mt-2 ml-12"
+                src="/mobile/immigrationImage.svg"
+                alt=""
+              />
             </div>
           </div>
 
-          <img className="w-full z-0" src="/mobile/immigration.svg" alt="" />
+          <img
+            className="w-full z-0"
+            src="/mobile/immigrationVector.svg"
+            alt=""
+          />
         </div>
+      </div>
 
+      <div className="flex-col mt-4 mx-4 ">
+        <div className=" relative w-full ">
+          <div>
+            <div className="absolute flex inset-x-0  text-center text-white font-semibold text-base z-10">
+            <img
+                className=" mt-3 ml-12"
+                src="/mobile/ieltsImage.svg"
+                alt=""
+              />
+              <div className=" flex text-left w-12 justify-start mt-4 ml-4">
+                IELTS/TOEFL/PTE Institute
+              </div>
+              
+            </div>
+          </div>
 
-
-
-
+          <img className="w-full z-0" src="/mobile/ieltsVector.svg" alt="" />
+        </div>
       </div>
     </>
   );
