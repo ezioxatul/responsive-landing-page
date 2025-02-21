@@ -230,7 +230,7 @@ function App() {
         <div className=" mt-1 text-[#B4B4B4] text-sm">See all</div>
       </div>
 
-      <div className="carousel carousel-center rounded-box ml-2 max-w-md p-4 flex gap-2 overflow-x-auto">
+      <div className="carousel carousel-center pb-20 rounded-box ml-2 max-w-md p-4 flex gap-2 overflow-x-auto">
         {/* Item 1 */}
         <div className="carousel-item w-72 flex-shrink-0">
           <div className=" h-34 w-72 space-x-2 flex justify-center p-1 items-center  shadow-md rounded-lg">
@@ -250,7 +250,6 @@ function App() {
           </div>
         </div>
 
-        
         {/* Item 2 */}
         <div className="carousel-item w-72 flex-shrink-0">
           <div className=" h-34 w-72 space-x-2 flex justify-center p-1 items-center  shadow-md rounded-lg">
@@ -269,8 +268,28 @@ function App() {
             </div>
           </div>
         </div>
-
       </div>
+
+      <div className="dock">
+  {/* Home Button */}
+  <button>
+    <img src="mobile/home.svg"/>
+    <span className="dock-label font-medium text-xs text-[#979797]">Home</span>
+  </button>
+
+  {/* Application Button (Active) */}
+  <button className="dock-active">
+  <img src="mobile/application.svg"/>
+    <span className="dock-label font-medium text-xs text-[#979797]">Application</span>
+  </button>
+
+  {/* Profile Button */}
+  <button>
+  <img src="mobile/profile.svg"/>
+    <span className="dock-label font-medium text-xs text-[#979797]">Profile</span>
+  </button>
+</div>
+
     </>
   );
 }
