@@ -1,6 +1,6 @@
  
- import cardData from "./assets/cardData";
- import instituteData from "./assets/instituteData";
+ import cardData from "./assets/desktop/cardData";
+ import instituteData from "./assets/desktop/instituteData";
   
   
   
@@ -16,7 +16,7 @@
         {/* Navbar Section */}
         <div className="relative z-10">
           <div className="flex h-[100px]  max-w-[1320px] mx-auto">
-            <img src="/desktop/logo.svg" className=" ml-2 w-32" alt="" />
+            <img src="/desktop/logo.svg" className=" hover:cursor-pointer ml-2 w-32" alt="" />
             <button className="btn flex mt-6 ml-32 btn-outline w-48 h-12 text-lg hover:bg-transparent font-medium border-2 rounded-lg text-white">
               <span>
                 <img src="/desktop/location.svg" />
@@ -27,14 +27,14 @@
               </span>
             </button>
             <div className="flex h-8 ml-auto mr-2 mt-8 space-x-4">
-              <div className=" font-semibold text-lg text-white">
+              <div className=" hover:cursor-pointer  font-semibold text-lg text-white">
                 Become a Consultant
               </div>
-              <img src="/desktop/notification.svg" />
-              <img src="/desktop/message.svg" />
-              <img className=" h-12 -mt-2" src="/desktop/profileIcon.svg" />
+              <img className=" hover:cursor-pointer"src="/desktop/notification.svg" />
+              <img className=" hover:cursor-pointer" src="/desktop/message.svg" />
+              <img className=" hover:cursor-pointer h-12 -mt-2" src="/desktop/profileIcon.svg" />
               <img className="h-6 mt-1" src="/desktop/balance.svg" />
-              <img className="h-2 mt-3" src="/desktop/downArrow.svg" />
+              <img className="h-2 hover:cursor-pointer mt-3" src="/desktop/downArrow.svg" />
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@
                   {/* Pricing and Button */}
                   <div className="absolute top-[370px] left-[10px] flex items-center justify-between w-[285px]">
                     <div className="w-[158px] h-[38px] bg-[#1C4CA0] shadow-lg rounded-[6px] flex items-center justify-center">
-                      <span className="text-white text-[18px] font-semibold">
+                      <span className="text-white hover:cursor-pointer text-[18px] font-semibold">
                         {card.price}
                       </span>
                     </div>
@@ -185,7 +185,7 @@
                         src="/desktop/messageCard.svg"
                         className="w-[15px] h-[14px] "
                       />
-                      <span className="text-[#C6960C] text-[18px] font-semibold">
+                      <span className="text-[#C6960C] hover:cursor-pointer text-[18px] font-semibold">
                         Message
                       </span>
                     </div>
@@ -201,7 +201,7 @@
               {instituteData.map((institute, index) => (
                 <div
                   key={index}
-                  className="relative w-[310px] h-[340px] rounded-[10px] overflow-hidden"
+                  className="relative hover:cursor-pointer w-[310px] h-[340px] rounded-[10px] overflow-hidden"
                 >
                   {/* Image */}
                   <div
