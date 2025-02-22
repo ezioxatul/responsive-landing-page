@@ -83,7 +83,7 @@ const cardData = [
         <div className="relative z-10">
           <div className="flex h-[100px]  max-w-[1320px] mx-auto">
             <img src="/desktop/logo.svg" className=" ml-2 w-32" alt="" />
-            <button className="btn flex mt-6 ml-32 btn-outline w-48 h-12 text-lg font-medium border-2 rounded-lg text-white">
+            <button className="btn flex mt-6 ml-32 btn-outline w-48 h-12 text-lg hover:bg-transparent font-medium border-2 rounded-lg text-white">
               <span>
                 <img src="/desktop/location.svg" />
               </span>
