@@ -288,9 +288,9 @@ const cardData = [
               ))}
             </div>
             <div className="flex-col my-auto">
-              <div className=" w-[292px] ">
+              <div className=" w-[292px] text-center ">
                 <div className=" text-[#1C4CA0] font-semibold text-[25px]">
-                  Top Rated Institutes
+                  Popular Institutes
                 </div>
                 <div className=" text-center font-medium text-base">
                   Our trusted partner in navigation the educational journey
