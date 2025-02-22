@@ -10,7 +10,7 @@ function App() {
     <>
       {/* Mobile View  */}
 
-      <div className="lg:hidden">
+      <div className="block md:hidden">
         <div className="relative w-full">
           {/* Text - Positioned Above the Image */}
           <div className="absolute inset-x-0 top-4 text-center text-white font-medium text-base z-10">
@@ -209,7 +209,7 @@ function App() {
       </div>
 
       {/* Desktop View */}
-      <div className="hidden lg:block">
+      <div className="hidden md:block">
         <Desktop />
       </div>
     </>
